@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trainee Details</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{background:#f3f3f3;color:#444}
+
+.header{
+    background:#fff;
+    border-bottom:1px solid #e5e5e5;
+    padding:8px 25px;
+}
+
+.logo-bar{
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+.logo{
+    padding:0;
+    border:none;
+    height:auto;
+}
+
+.logo img{
+    display:block;
+    height:34px;
+    width:auto;
+}
+
+.wrapper{
+    width:1060px;
+    max-width:95%;
+    margin:40px auto;
+}
+
+.card{
+    background:#fff;
+    border:1px solid #e5e5e5;
+    border-radius:8px;
+    overflow:hidden;
+    box-shadow:0 1px 3px rgba(0,0,0,.04)
+}
+
+.card-title{
+    padding:20px;
+    font-size:22px;
+    font-weight:600;
+    color:#1d2a44;
+}
+
+.separator{height:1px;background:#e6e6e6}
+.content{padding:35px 35px 45px}
+.profile-holder{display:flex;justify-content:center;margin-bottom:30px}
+.profile-ring{width:82px;height:82px;border:2px solid #f28c28;border-radius:50%;overflow:hidden;background:#fff}
+.profile-ring img{width:100%;height:100%;object-fit:cover}
+
+.details{
+display:grid;
+grid-template-columns:140px minmax(180px,1fr) 140px minmax(420px,2fr);
+column-gap:40px;
+row-gap:12px;
+}
+
+.label{font-size:14px;font-weight:600;color:#3d3d3d;line-height:24px}
+.value{font-size:14px;color:#666;line-height:24px;overflow-wrap:anywhere}
+.address{line-height:26px}
+
+@media(max-width:900px){
+.details{grid-template-columns:1fr}
+.logo-bar{flex-wrap:wrap}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo-bar">
+        <div class="logo"><img src="msde.png" alt="MSDE"></div>
+        <div class="logo"><img src="skillindia.png" alt="Skill India"></div>
+        <div class="logo"><img src="dgt.png" alt="DGT"></div>
+        <div class="logo"><img src="ncvt.png" alt="NCVT"></div>
+    </div>
+</div>
+
+<div class="wrapper">
+<div class="card">
+<div class="card-title">Trainee Details</div>
+<div class="separator"></div>
+
+<div class="content">
+
+<div class="profile-holder">
+<div class="profile-ring">
+<img src="https://digitaliti58-design.github.io/files/WhatsApp%20Image%202026-06-14%20at%208.28.52%20PM.jpeg" alt="Profile">
+</div>
+</div>
+
+<div class="details">
+<div class="label">Roll No</div><div class="value">00200486951580</div>
+<div class="label">Name</div><div class="value">HAPPY</div>
+
+<div class="label">Father Name</div><div class="value">RAM SINGH</div>
+<div class="label">Trade Code</div><div class="value">442</div>
+
+<div class="label">Trade Name</div><div class="value">Electrician (NSQF)</div>
+<div class="label">Admission Year</div><div class="value">2014</div>
+
+<div class="label">Date of Birth</div><div class="value">05-Aug-1987</div>
+<div class="label">ITI Code</div><div class="value">PU0990010</div>
+
+<div class="label">ITI Name</div><div class="value">MAA SARASWATI  INSTITUTE PRIVATE IT</div>
+<div class="label">ITI Address</div><div class="value address">BUS STAND ROAD</div>
+
+<div class="label">Examination Center Address</div><div class="value address">1005-GOVT. INDUSTRIAL TRAINING INSTITUTE (ITI) FAZILKA,Punjab152123</div>
+<div class="label">Shift</div><div class="value">2</div>
+
+<div class="label">Unit</div><div class="value">4</div>
+<div class="label">Training Duration</div><div class="value">2014-2016</div>
+
+<div class="label">Certified</div><div class="value">Yes</div>
+<div class="label">Certificate issue date</div><div class="value">06-Sep-2016</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>
